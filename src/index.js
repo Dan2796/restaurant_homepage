@@ -1,10 +1,7 @@
-function component() {
-  const element = document.createElement('div');
+import header from './components/header';
+import intro from './components/intro';
+import tab from './components/tab';
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = ("Hello.");
-
-  return element;
-}
-
-document.body.appendChild(component());
+document.body.appendChild(header());
+document.body.appendChild(intro().para1, intro().para2);
+document.body.appendChild(tab());
