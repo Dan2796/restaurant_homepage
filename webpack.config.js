@@ -21,6 +21,14 @@ module.exports = {
     clean: true,
     publicPath: '/',
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
   optimization: {
     runtimeChunk: 'single',
   },

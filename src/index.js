@@ -1,3 +1,5 @@
+import './style.css';
+
 import header from './components/header';
 import intro from './components/intro';
 import tab from './components/tab';
