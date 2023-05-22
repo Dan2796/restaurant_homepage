@@ -23,5 +23,3 @@ allContent.appendChild(tabContentContainer);
 allContent.appendChild(imageCredit());
 
 showHome();
-
-// <a href="https://www.freepik.com/free-photo/food-with-ingredients_6216943.htm#query=restaurant&position=12&from_view=search&track=sph">Image by valeria_aksakova</a> on Freepik
