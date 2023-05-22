@@ -16,7 +16,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .backgroundImageBox {
@@ -46,18 +46,26 @@ p {
 }
 
 .tabs {
-  display: flex;
   width: 100%;
-  justify-content: space-around;
-  gap: 10px;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
 }
 
 button {
+  padding: 10px 30px;
   font-family: titleFont, sans-serif;
+  font-size: 1.5rem;
+  background: none;
+  border-radius: 25px 5px 0 0;
+  border: solid white;
+  color: white;
 }
 
 button:hover {
   cursor: pointer;
+  background-color: white;
+  color: black;
 }
 
 .imageCredit {

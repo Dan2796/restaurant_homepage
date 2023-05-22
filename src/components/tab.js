@@ -14,9 +14,9 @@ export default function tab() {
   tab2.classList.add('tab');
   tab3.classList.add('tab');
 
-  tab1.textContent = 'Home';
-  tab2.textContent = 'Menus';
-  tab3.textContent = 'Book';
+  tab1.textContent = 'Welcome';
+  tab2.textContent = 'Our menu';
+  tab3.textContent = 'Book a table';
 
   tab1.onclick = showHome;
   tab2.onclick = showMenu;
