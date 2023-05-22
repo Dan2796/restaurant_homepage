@@ -2,7 +2,7 @@ import './style.css';
 
 import header from './components/header';
 import tab from './components/tab';
-import imageCredit from './components/imageCredit';
+import imageCredit from './components/image_credit';
 
 import showHome from './tab_functions/showHome';
 
@@ -20,6 +20,6 @@ const tabContentContainer = document.createElement('div');
 tabContentContainer.classList.add('contentContainer');
 allContent.appendChild(tabContentContainer);
 
-allContent.appendChild(imageCredit());
+backgroundImageBox.appendChild(imageCredit());
 
 showHome();
