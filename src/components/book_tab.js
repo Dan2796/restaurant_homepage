@@ -11,8 +11,8 @@ export default function bookTab() {
   bookingContent.appendChild(para4);
 
   para1.textContent = 'If you would like to book a table, please call us on 0871 976 2819.';
-  para2.textContent = 'You can also email us at rustica_toscano_bookings@gmail.com';
-  para2.textContent = 'A reservation is not necessary to dine with us, but we do reccomend booking in advance if you want to be sure of a space, particulary during peak periods.';
+  para2.textContent = 'You can also email us at rustica_toscano_bookings@gmail.com.';
+  para3.textContent = 'A reservation is not necessary to dine with us, but we do reccomend booking in advance if you want to be sure of a space, particulary during peak periods.';
   para4.textContent = 'We look forward to seeing you.';
 
   return bookingContent;
