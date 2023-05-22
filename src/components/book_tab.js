@@ -10,10 +10,10 @@ export default function bookTab() {
   bookingContent.appendChild(para3);
   bookingContent.appendChild(para4);
 
-  para1.textContent = 'If you would like to book a table with us, please call us on 01965 212221.';
-  para2.textContent = 'If you can\'t reach it us, it\'s probably because that number is one we just made up for the purpose of making this website look realistic.';
-  para3.textContent = 'You can also email us at lefrenchcusine@gmail.com';
-  para4.textContent = 'Though again, don\'t expect a speedy reply from this completely made up email account...';
+  para1.textContent = 'If you would like to book a table, please call us on 0871 976 2819.';
+  para2.textContent = 'You can also email us at rustica_toscano_bookings@gmail.com';
+  para2.textContent = 'A reservation is not necessary to dine with us, but we do reccomend booking in advance if you want to be sure of a space, particulary during peak periods.';
+  para4.textContent = 'We look forward to seeing you.';
 
   return bookingContent;
 }

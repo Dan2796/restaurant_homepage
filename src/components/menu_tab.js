@@ -10,10 +10,10 @@ export default function menuTab() {
   menuContent.appendChild(para3);
   menuContent.appendChild(para4);
 
-  para1.textContent = 'French food item 1 ';
-  para2.textContent = 'More french food';
-  para3.textContent = 'Some other french food';
-  para4.textContent = 'Some English cuisine... just kidding, this will also be french food.';
+  para1.textContent = 'Italian food item 1 ';
+  para2.textContent = 'More Italian food';
+  para3.textContent = 'Some other Italian food';
+  para4.textContent = 'Some English cuisine... just kidding, this will also be Italian food.';
 
   return menuContent;
 }

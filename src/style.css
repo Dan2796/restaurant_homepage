@@ -1,14 +1,31 @@
 body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.backgroundImageBox {
+  height: 100%;
   font-family: sans-serif;
+  background: url('./images/ingredients.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.allContent {
+  max-width: 800px
 }
 
 h1 {
-  color:red;
+  margin-top: 0;
+  color: white;
   text-align: center;
 }
 
 p {
   text-align: center;
+  color: white;
 }
 
 .tabs {
@@ -20,4 +37,22 @@ p {
 
 button:hover {
   cursor: pointer;
+}
+
+.imageCredit {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:clicked {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }

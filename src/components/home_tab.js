@@ -10,10 +10,10 @@ export default function homeTab() {
   homeContent.appendChild(para3);
   homeContent.appendChild(para4);
 
-  para1.textContent = 'Welcome to le restaurant de le tres authentic cuisine Francais.';
-  para2.textContent = 'Je pense que you will enjoy it tres bien.';
-  para3.textContent = 'Regardez vous our perfetto menus and please come to our restaurant.';
-  para4.textContent = 'As they say in Paris, we hope you have a "bon \'appy eat".';
+  para1.textContent = 'We believe that good food is the foundation of a happy life, and we express that belief in every dish we serve.';
+  para2.textContent = 'We are located in Covent Gardens, but join us for an evening and your pallete will be transported to the most beautiful province in Italy. Tuscany may be famous for it\'s wine, but no true Italian would waste a good wine on bad food; our menu ensures that you can enjoy the finest Chianti with the best hand-made Italian fare on offer in London.';
+  para3.textContent = 'So join us for your next celebration, your next date night, your next family reunion, and relax for a few hours in the comfort of a cozy Tuscan dining experience.';
+  para4.textContent = 'At Ristorante Rustico Toscano, "Buono appetito" is not a hope, it\'s a promise.';
 
   return homeContent;
 }
