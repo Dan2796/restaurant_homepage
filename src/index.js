@@ -1,10 +1,10 @@
-import './style.css';
+import '/src/style.css';
 
-import header from './components/header';
-import tab from './components/tab';
-import imageCredit from './components/image_credit';
+import header from '/src/components/header';
+import tab from '/src/components/tab';
+import imageCredit from '/src/components/image_credit';
 
-import showHome from './tab_functions/showHome';
+import showHome from '/src/tab_functions/showHome';
 
 const backgroundImageBox = document.createElement('div');
 backgroundImageBox.classList.add('backgroundImageBox');

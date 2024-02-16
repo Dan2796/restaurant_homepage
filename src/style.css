@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'titleFont';
-  src: url('./fonts/Pangolin-Regular.ttf');
+  src: url('/src/fonts/Pangolin-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'bodyFont';
-  src: url('./fonts/IndieFlower-Regular.ttf');
+  src: url('/src/fonts/IndieFlower-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,7 +24,7 @@ body {
   position: relative;
   min-height: 100vh;
   font-family: sans-serif;
-  background: url('./images/ingredients.jpg');
+  background: url('/src/images/ingredients.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 

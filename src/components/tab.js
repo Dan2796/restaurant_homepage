@@ -1,6 +1,6 @@
-import showHome from '../tab_functions/showHome';
-import showMenu from '../tab_functions/showMenu';
-import showBook from '../tab_functions/showBook';
+import showHome from '/src/tab_functions/showHome';
+import showMenu from '/src/tab_functions/showMenu';
+import showBook from '/src/tab_functions/showBook';
 
 export default function tab() {
   const tabs = document.createElement('div');
